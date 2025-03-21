@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+
+   <!-- Particle Background -->
+   <div id="particles-js"></div>
+
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop autoplay>
+        <source src="un_per_solla.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Slide 1: Welcome -->
+    <div class="slide active" id="slide1">
+        <h1>Happy Birthday My Love ❤️</h1>
+        <button class="next-btn" onclick="nextSlide(2)">Next</button>
+    </div>
+
+    <!-- Slide 2: Love Story -->
+    <div class="slide" id="slide2">
+        <h2>Our Beautiful Love Story</h2>
+        <img src="photo1.jpg" alt="Our Love Story">
+        <p>From the moment we met, you became my everything...</p>
+        <button class="next-btn" onclick="nextSlide(3)">Next</button>
+    </div>
+
+    <!-- Slide 3: Apology Letter -->
+    <div class="slide" id="slide3">
+        <h2>For My Love ❤️</h2>
+        <img src="photo2.jpg" alt="Our Love Story">
+        <p class="letter">Sorry mama, I hurt you a lot from the beginning, sorry for everything. Don't worry, our life will be happy. Love you, mama. ❤️</p>
+        <button class="next-btn" onclick="nextSlide(4)">Next</button>
+    </div>
+
+    <!-- Slide 4: Heart Button -->
+    <div class="slide" id="slide4">
+        <img src="photo3.jpg" alt="Our Love Story">
+        <h2>Tap the Heart ❤️</h2>
+        <button class="heart-btn" onclick="nextSlide(5)">❤️</button>
+    </div>
+
+    <!-- Slide 5: Final Birthday Wish -->
+    <div class="slide" id="slide5">
+        <h2>Happy Birthday My Love! 🎉❤️</h2>
+        <p class="typing-text"></p>
+    </div>
+
+    <!-- Load Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
+
+</body>
+</html>
